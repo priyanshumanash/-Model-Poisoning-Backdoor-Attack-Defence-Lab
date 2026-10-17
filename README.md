@@ -16,6 +16,7 @@ Reproducible training-time attacks on an ML model, and the defences that detect 
 
 * Activation clustering (with exclusionary reclassification) reached **100% precision / 99% recall** at 5% poisoning, with **zero false positives** on clean training data.
 * It **fails** below about 3% poisoning, and fine-pruning only removes the backdoor by pruning 90% of neurons (−10 pts accuracy). Both limits are documented in [`results/RESULTS.md`](results/RESULTS.md).
+<img width="1280" height="832" alt="Screenshot 2026-10-17 at 20 09 02" src="https://github.com/user-attachments/assets/e9672832-6476-4508-8602-f7ffd77051b9" />
 
 ## What's inside
 
